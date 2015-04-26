@@ -39,3 +39,8 @@ curl -i -X POST -F \
 "file=@/home/jack/somefile.pdf" https://pure-crag-7012.herokuapp.com/company/3/passport 
 ```
 
+#### Download an attached passport PDF
+```
+curl -i -o file.pdf https://pure-crag-7012.herokuapp.com/company/1/passport/1
+```
+
